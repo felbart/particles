@@ -1,0 +1,10 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    <form role="search" method="post" class="g5-search">
+        <i class="fa fa-search"></i>
+        <input name="searchword" type="search" placeholder="Search">
+        <input type="hidden" name="task" value="search">
+        <input type="hidden" name="option" value="com_search">
+    </form>
+{% endblock %}
