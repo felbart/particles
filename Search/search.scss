@@ -1,0 +1,19 @@
+.g5-search {
+    margin-bottom: 0;
+    
+    input[type="search"] {
+        margin-bottom: 0;
+        border: 1px solid transparent;
+        margin-left: 8px;
+        max-width: 200px;
+        
+        &:focus {
+            box-shadow: none;
+            border: 1px solid transparent;
+            border-bottom: 1px solid $base-text-color;
+            border-radius: 0;
+            transition-timing-function: cubic-bezier(.4,0,.2,1);
+            transition-duration: .4s;
+        }
+    }
+}
