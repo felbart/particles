@@ -1,0 +1,11 @@
+name: Search
+description: Search Box
+type: particle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
