@@ -1,0 +1,27 @@
+.ai-media-icon {
+    margin-right: 20px;
+    float: left;
+    margin-top: 4px;
+    color: $accent-color-2;
+}
+
+.ai-media-inner {
+    overflow: hidden;
+}
+
+.ai-media-description {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.ai-media {
+    font-weight: 300;
+    
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.ai-media-title {
+    font-size: 21px;
+}
