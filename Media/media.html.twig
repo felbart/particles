@@ -1,0 +1,19 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+	<div class="ai-media">
+	    
+	    <div class="ai-media-icon">
+	        <i class="{{ particle.icon }}"></i>
+	    </div>
+	    
+	    <div class="ai-media-inner">
+	        {%if particle.url %}<a href="{{ particle.url }}" target="_self" title="{{ particle.title }}"><div class="ai-media-title">{{ particle.title }}</div></a>
+	        {% else %}
+	        <div class="ai-media-title">{{ particle.title }}</div>
+	        {% endif %}
+	        <p class="ai-media-description">{{ particle.description }}</p>
+	    </div>
+	    
+	</div>
+{% endblock %}
