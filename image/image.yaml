@@ -1,0 +1,19 @@
+name: Image
+description: Displays a simple image
+type: particle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
+     
+    image:
+      type: input.imagepicker
+      label: Image
+      
+    alt: 
+      type: input.text
+      label: Alt text
