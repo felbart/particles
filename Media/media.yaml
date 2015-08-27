@@ -1,0 +1,28 @@
+name: Media
+description: Displays items
+type: particle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
+    
+    title:
+      type: input.title
+      label: Title
+    
+    url:
+      type: input.title
+      label: Link
+    
+    icon:
+      type: input.icon
+      label: Icon
+      description: Chose an icon 
+      
+    description:
+      type: textarea.textarea
+      label: Description
