@@ -1,0 +1,7 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    <div class="ai-image">
+        {% if particle.image %}<img src="{{ url(particle.image) }}" alt="{{ particle.alt|e }}" />{% endif %}
+    </div>
+{% endblock %}
