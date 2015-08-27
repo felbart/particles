@@ -1,0 +1,41 @@
+name: Button
+description: Display buttons
+type: particle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
+    
+    buttons:
+      type: collection.list
+      array: true
+      label: Buttons
+      description: Create buttons.
+      value: title
+      ajax: true
+
+      fields:
+        .url:
+          type: input.text
+          label: Link
+        
+        .text:
+          type: input.text
+          label: Text
+        
+        .target:
+          type: select.selectize
+          label: Target
+          default: _self
+          options:
+            _self: Self
+            _blank: New Window
+        
+        .style:
+          type: input.text
+          label: Style
+          default: button-border
