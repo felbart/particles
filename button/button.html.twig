@@ -1,0 +1,9 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    <div class="ai-button-particle">
+        {% for button in particle.buttons %}
+            <a href="{{ button.url }}" target="{{ button.target|default('_self') }}" title="{{ button.text }}" class="{{ button.style|default('button-border') }}">{{ button.text }}</a>
+        {% endfor %}
+    </div>
+{% endblock %}
