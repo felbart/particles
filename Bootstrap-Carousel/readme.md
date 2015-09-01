@@ -11,8 +11,7 @@ g5_hydrogen/custom/scss/custom.scss  (copy the content of _carousel.scss)
 
 Video Tutorial: https://www.youtube.com/watch?v=Cj50U50HMgs&feature=youtu.be
 
-
-
+--------------------------------------------------------------------------------------------------------------------------------
 Download Joomla Templates Built Upon Gantry 5 Framework: https://gumroad.com/adi8i
 
 Get in Touch: https://gitter.im/adi8i/adriandev
