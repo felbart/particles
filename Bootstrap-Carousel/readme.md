@@ -2,7 +2,7 @@
 
 I adapted the slider to work as a particle in Joomla Templates based on Gantry 5 Framework. It is easy to install. However, right now Gantry 5 doesn’t offer the possibility of installing particles thought an installer, you need access to the server.
 
-#Folder structure:
+##Folder structure:
 
 g5_hydrogen/custom/particles/carousel.html.twig
 
